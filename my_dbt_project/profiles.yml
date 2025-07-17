@@ -1,0 +1,14 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: myuser
+      password: mysecretpassword
+      port: 5432
+      dbname: mydatabase
+      schema: raw
+      threads: 1
+      keepalives_idle: 0
+      connect_timeout: 10

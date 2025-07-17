@@ -176,3 +176,5 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+docker-comppose.yml
+docker-compose.override.yml
